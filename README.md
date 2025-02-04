@@ -16,17 +16,17 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 ```
 2. Выявить проблему и описать.
 
-```
- -  для установки приложения необходимо создать namespace web и data
- -  Поле установки приложение web-consumer не может подключиться к auth-db, потому что они находятся в разных namespace
-```
+
+ -  *для установки приложения необходимо создать namespace web и data*
+ -  *Поле установки приложение web-consumer не может подключиться к auth-db, потому что они находятся в разных namespace*
+
 
 
 3. Исправить проблему, описать, что сделано.
-```
- -  Для решения проблемы установки создадим namespace web и data.
- -  Для решения проблемы работы приложения создадим Service в namespace web, который будет указывать на FQDN auth-db.data.svc.cluster.local
- ```
+
+ -  *Для решения проблемы установки создадим namespace web и data.*
+ -  *Для решения проблемы работы приложения создадим Service в namespace web, который будет указывать на FQDN auth-db.data.svc.cluster.local*
+
 
 4. Продемонстрировать, что проблема решена.
 
