@@ -17,7 +17,7 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 2. Выявить проблему и описать.
 
 
- -  *для установки приложения необходимо создать namespace web и data*
+ -  *для установки приложения необходимо создать [namespace web и data](https://github.com/SeNike/k8s-3.5/blob/main/app-namespace.yaml)*
  -  *Поле установки приложение web-consumer не может подключиться к auth-db, потому что они находятся в разных namespace*
 
 
